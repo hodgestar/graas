@@ -1,0 +1,10 @@
+# Source distribution files.
+include LICENSE
+include README.rst
+include setup.py
+
+# Python package data files.
+recursive-include graas/static *
+
+# Prune stray bytecode files.
+global-exclude *.pyc
